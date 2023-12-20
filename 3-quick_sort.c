@@ -30,7 +30,7 @@ int partition(int *array, int first, int last, size_t size)
 	{
 		x = array[i + 1];
 		array[i + 1] = array[last];
-		array[last] = aux;
+		array[last] = x;
 		print_array(array, size);
 	}
 
