@@ -28,7 +28,7 @@ int partition(int *array, int first, int last, size_t size)
 	}
 	if (array[i + 1] > array[last])
 	{
-		aux = array[i + 1];
+		x = array[i + 1];
 		array[i + 1] = array[last];
 		array[last] = aux;
 		print_array(array, size);
